@@ -1,0 +1,30 @@
+<resources>
+    <string name="app_name">cloudStorage</string>
+    <!-- Strings related to login -->
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="welcome">"Welcome !"</string>
+    <string name="invalid_emal">Not a valid emal adress</string>
+    <string name="invalid_password">Password must be >5 characters</string>
+    <string name="login_failed">"Login failed"</string>
+    <string name="create_password">Password</string>
+    <string name="enter_verfCode">Enter verification code sended on choosen email</string>
+    <string name="nav_home">Gallery</string>
+    <string name="nav_settings">Settings</string>
+    <string name="nav_TelegramLogin">Telegram login</string>
+    <string name="reg_title">Registration</string>
+    <string name="reg_nick">Nick</string>
+    <string name="reg_btn">Register</string>
+    <string name="reg_passwordCondtion_symbolsLen">• At least 8 characters</string>
+    <string name="reg_passwordCondtion_specChars">• Special characters must be used</string>
+    <string name="reg_passwordCondtion_Numbers">• Numbers must be used</string>
+    <string name="title_activity_launch" translatable="false">LaunchActivity</string>
+    <string name="log_title">Login</string>
+    <string name="log_email">Email</string>
+    <string name="log_password">Password</string>
+    <string name="log_btn">Login</string>
+    <string name="log_err">Login error. Check your email and password</string>
+    <string name="CloudGallery">CloudGallery</string>
+</resources>

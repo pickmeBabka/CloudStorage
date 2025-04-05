@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Lern_BroadCastFilesOnServer</string>
+
+    <string name="txt_btnLogin">Btn Login</string>
+    <string name="txt_btnAuth">Btn Auth</string>
+
+</resources>

@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Lern_BroadCastFilesOnServer">
+        <activity
+            android:name=".CloudGalleryActivity"
+            android:exported="false" />
+        <activity
+            android:name=".videoViewActivity"
+            android:exported="false" />
+        <activity
+            android:name=".MediaViewActivity"
+            android:exported="false" />
+        <activity
+            android:name=".LaunchActivity"
+            android:exported="true"
+            android:label="@string/title_activity_launch"
+            android:theme="@style/Theme.Lern_BroadCastFilesOnServer" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true" />
+        <activity
+            android:name=".SettingsActivity"
+            android:exported="false" />
+        <activity
+            android:name=".VerifyEmailActivity"
+            android:exported="false" />
+        <activity
+            android:name=".RegisterActivity"
+            android:exported="false" />
+        <activity
+            android:name=".LoginActivity"
+            android:exported="false" />
+        <activity
+            android:name=".EmailVeryfied"
+            android:exported="true">
+            <intent-filter android:autoVerify="true">
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+
+                <data android:scheme="http" />
+                <data
+                    android:host="web-hobby.ru"
+                    android:port="8812" />
+                <data android:pathPattern="/verifyEmail" />
+            </intent-filter>
+            <intent-filter android:autoVerify="true">
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+
+                <data android:scheme="https" />
+                <data
+                    android:host="web-hobby.ru"
+                    android:port="8713" />
+                <data android:pathPattern="/verifyEmail" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".CheckEmailActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+    <uses-permission android:name="android.permission.READ_MEDIA_VIDEO" />
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <uses-permission android:name="android.permission.READ_MEDIA_IMAGES" />
+
+</manifest>

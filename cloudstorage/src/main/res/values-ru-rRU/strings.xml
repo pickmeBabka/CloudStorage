@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">cloudStorage</string>
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Пароль</string>
+    <string name="action_sign_in">Вход или регистрация</string>
+    <string name="action_sign_in_short">Вход</string>
+    <string name="welcome">Добро пожаловать!</string>
+    <string name="invalid_emal">Неверный почтовый адрес</string>
+    <string name="invalid_password">Пароль должен быть больше 5 символов</string>
+    <string name="login_failed">Ошибка входа</string>
+    <string name="create_password">Пароль</string>
+    <string name="enter_verfCode">Введите код потдеверждения отправленный на указанную почту</string>
+    <string name="nav_home">Галерея</string>
+    <string name="nav_settings">Настройки</string>
+    <string name="nav_TelegramLogin">Войти в аккаунт Telegram</string>
+    <string name="reg_title">Регистрация</string>
+    <string name="reg_nick">Ник</string>
+    <string name="reg_btn">Зарегестрироваться</string>
+    <string name="reg_passwordCondtion_symbolsLen">• Не менее 8 символов</string>
+    <string name="reg_passwordCondtion_specChars">"• Должны быть использованы специальные символы "</string>
+    <string name="reg_passwordCondtion_Numbers">• Должны быть использованы числа</string>
+    <string name="log_title">Авторизация</string>
+    <string name="log_email">Электронная почта</string>
+    <string name="log_password">Пароль</string>
+    <string name="log_btn">Войти</string>
+    <string name="log_err">Ошибка входа. Проверте почту и пароль</string>
+    <string name="CloudGallery">Облачная галерея</string>
+</resources>

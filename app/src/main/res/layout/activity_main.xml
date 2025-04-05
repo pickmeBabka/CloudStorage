@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity"
+    tools:ignore="HardcodedText">
+
+    <!--Button to open the image selector-->
+
+    <Button
+        android:id="@+id/BSelectImage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="false"
+        android:layout_marginTop="32dp"
+        android:text="SELECT IMAGE"
+        android:textColor="@android:color/white"
+        android:textSize="18sp" />
+
+    <!--ImageView to preview the selected image-->
+
+    <Button
+        android:id="@+id/btnLogin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/lblJson"
+        android:layout_marginTop="8dp"
+        android:text="@string/txt_btnLogin" />
+
+    <Button
+        android:id="@+id/btnAuth"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btnLogin"
+        android:layout_marginTop="3dp"
+        android:text="@string/txt_btnAuth" />
+
+    <TextView
+        android:id="@+id/lbl"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/BSelectImage"
+        android:layout_marginTop="19dp"
+        android:text="Hello World!" />
+
+    <TextView
+        android:id="@+id/lblJson"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/lbl"
+        android:layout_marginTop="8dp"
+        android:text="TextView" />
+
+
+</LinearLayout>
