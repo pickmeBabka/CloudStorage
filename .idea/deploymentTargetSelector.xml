@@ -7,10 +7,10 @@
       </SelectionState>
       <SelectionState runConfigName="cloudstorage">
         <option name="selectionMode" value="DROPDOWN" />
-        <DropdownSelection timestamp="2025-03-31T15:24:00.524155800Z">
+        <DropdownSelection timestamp="2025-05-18T09:22:32.055234900Z">
           <Target type="DEFAULT_BOOT">
             <handle>
-              <DeviceId pluginId="LocalEmulator" identifier="path=f:\Users\Dottore\.android\avd\Pixel_8_API_36.avd" />
+              <DeviceId pluginId="LocalEmulator" identifier="path=f:\Users\Dottore\.android\avd\Phone_B_API_36.avd" />
             </handle>
           </Target>
         </DropdownSelection>

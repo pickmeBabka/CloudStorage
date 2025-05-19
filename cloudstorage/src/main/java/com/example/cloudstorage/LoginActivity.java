@@ -34,7 +34,7 @@ public class LoginActivity extends AppCompatActivity {
         email = findViewById(R.id.logEmail);
         password = findViewById(R.id.logPassword);
         btnLogin = findViewById(R.id.btnLogin);
-
+        email.setText(getIntent().getStringExtra("email"));
         email.addTextChangedListener(new TextWatcher() {
             @Override
             public void beforeTextChanged(CharSequence s, int start, int count, int after) {

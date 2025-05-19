@@ -47,7 +47,7 @@ public class CheckEmailActivity extends AppCompatActivity {
             return insets;
         });
         DataBaseServices.setDb(getApplicationContext().openOrCreateDatabase("dataLol.db", MODE_PRIVATE, null));
-        if(getSharedPreferences(helper_class.Constatns.Cash, MODE_PRIVATE).getBoolean(helper_class.Constatns.CashIsLogged, false))
+        if(getSharedPreferences(helper_class.Constatns.Cash, MODE_PRIVATE).getBoolean(helper_class.Constatns.CashIsLogged, false) && CloudServicesApi.CheckAuth(getSharedPreferences(helper_class.Constatns.Cash, MODE_PRIVATE).getString(helper_class.Constatns.CashSessionId, "")))
         {
             startActivity(new Intent(getApplicationContext(), MainActivity.class));
             finish();
@@ -81,7 +81,7 @@ public class CheckEmailActivity extends AppCompatActivity {
                             }
                             if (CloudServicesApi.CheckEmail(email)) {
                                 Intent i = new Intent(getApplicationContext(), LoginActivity.class);
-                                startActivity(i);
+                                startActivity(i.putExtra("email", email));
                                 finish();
                             }else
                             {
