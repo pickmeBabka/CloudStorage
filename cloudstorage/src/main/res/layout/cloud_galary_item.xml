@@ -14,9 +14,8 @@
     <ProgressBar
         android:id="@+id/cloudGalleryProgressBar"
         style="@style/Widget.AppCompat.ProgressBar.Horizontal"
-        android:layout_width="80dp"
-        android:layout_height="120dp"
-        android:layout_marginStart="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
         android:indeterminate="false"
         android:indeterminateBehavior="cycle"
         android:indeterminateDuration="0"
@@ -29,6 +28,6 @@
         android:minWidth="120dp"
         android:minHeight="120dp"
         android:mirrorForRtl="true"
-        android:progress="30" />
+        android:progress="0" />
 
 </androidx.cardview.widget.CardView>

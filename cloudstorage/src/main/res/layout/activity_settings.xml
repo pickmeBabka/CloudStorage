@@ -17,11 +17,66 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content" />
 
-        <TextView
-            android:id="@+id/lblHome"
+        <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Settings" />
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/textView8"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginStart="5dp"
+                android:layout_weight="10"
+                android:text="@string/s_NetworkUsingProfile" />
+
+            <Button
+                android:id="@+id/btnDecreaseNetUseProfile"
+                android:layout_width="3dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@android:color/transparent"
+                android:text="@string/btn_left"
+                android:textSize="25sp" />
+
+            <TextView
+                android:id="@+id/txtNetProfile"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="TextView" />
+
+            <Button
+                android:id="@+id/btnIncreaseNetUseProfile"
+                android:layout_width="3dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@android:color/transparent"
+                android:text="@string/btn_right"
+                android:textSize="25sp" />
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/textView9"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/set_sessionsTitile" />
+
+        <TableLayout
+            android:id="@+id/tabSessions"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <Button
+            android:id="@+id/btnExit"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/set_ExitSession" />
+
     </LinearLayout>
 
     <RelativeLayout

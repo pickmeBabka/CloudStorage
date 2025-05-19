@@ -34,8 +34,8 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:ems="10"
-            android:inputType="text"
-            android:text="example@example.com" />
+            android:hint="example@example.com"
+            android:inputType="text|textEmailAddress" />
 
         <TextView
             android:id="@+id/textView6"
@@ -48,8 +48,8 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:ems="10"
-            android:inputType="text"
-            android:text="🤫" />
+            android:hint="🤫"
+            android:inputType="text|textPassword" />
 
         <Button
             android:id="@+id/btnLogin"

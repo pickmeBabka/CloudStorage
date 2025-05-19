@@ -26,4 +26,20 @@
     <string name="log_btn">Войти</string>
     <string name="log_err">Ошибка входа. Проверте почту и пароль</string>
     <string name="CloudGallery">Облачная галерея</string>
+    <string name="notif_uploading">Загружаем файл на сервер</string>
+    <string name="s_NetworkUsingProfile">Профиль использования сети</string>
+    <string name="s_NetworkUsingProfile_Low">Низкая</string>
+    <string name="s_NetworkUsingProfile_Medium">Средняя</string>
+    <string name="s_NetworkUsingProfile_High">Высокая</string>
+    <string name="s_NetworkUsingProfile_Custom">Своя настройка</string>
+    <string name="set_sessionsTitile">Сессии</string>
+    <string name="set_TerminateSession">Прикратить сессию</string>
+    <string name="set_ExitSession">Выйти</string>
+    <string name="set_currentSession">Текущая сессия</string>
+    <string name="Main_UnsynchronizedObjects">Не синхронизированные объекты</string>
+    <string name="u_Photos">фото</string>
+    <string name="u_Videos">видео</string>
+    <string name="main_sync">Синхроизировать объекты</string>
+    <string name="notif_Syncing">Синхронизация объектов</string>
+    <string name="btn_verfCode">Подтвердить код</string>
 </resources>

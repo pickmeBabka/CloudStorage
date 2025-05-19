@@ -26,5 +26,5 @@
         android:id="@+id/btnVerfCode"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="btnVerfCode" />
+        android:text="@string/btn_verfCode" />
 </LinearLayout>

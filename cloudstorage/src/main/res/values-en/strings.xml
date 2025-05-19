@@ -26,4 +26,20 @@
     <string name="log_btn">Login</string>
     <string name="log_err">Login error. Check your email and password</string>
     <string name="CloudGallery">CloudGallery</string>
+    <string name="notif_uploading">Uploading file</string>
+    <string name="s_NetworkUsingProfile">Network using profile</string>
+    <string name="s_NetworkUsingProfile_Low">Low</string>
+    <string name="s_NetworkUsingProfile_Medium">Medium</string>
+    <string name="s_NetworkUsingProfile_High">High</string>
+    <string name="s_NetworkUsingProfile_Custom">Custom</string>
+    <string name="set_sessionsTitile">Sessions</string>
+    <string name="set_TerminateSession">Terminate Session</string>
+    <string name="set_ExitSession">Exit</string>
+    <string name="set_currentSession">Current Session</string>
+    <string name="Main_UnsynchronizedObjects">Unsynchronized objects</string>
+    <string name="u_Photos">photos</string>
+    <string name="u_Videos">videos</string>
+    <string name="main_sync">Sync objects</string>
+    <string name="notif_Syncing">Sync objects</string>
+    <string name="btn_verfCode">Submit code</string>
 </resources>
